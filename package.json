@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "rollup -c",
+    "verify": "acorn output.js"
+  },
+  "dependencies": {
+    "rollup": "^1.1.2",
+    "rollup-plugin-url-import": "^0.3.0"
+  }
+}
